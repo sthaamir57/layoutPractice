@@ -136,7 +136,7 @@ nav .container {
 }
 
 .logo {
-  padding: 1.2rem 0;
+  padding: 1.4rem 0;
 }
 
 .logo a img {
@@ -242,9 +242,47 @@ nav .container {
   backface-visibility: hidden; */
 }
 
-.al {
-  height: 570px;
+.landing {
+  padding: 8rem 0;
+  /* height: 570px; */
   background-image: url(../img/banner.jpg);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
+}
+
+.landing-content {
+  /* display: flex; */
+  /* flex-direction: column; */
+  color: #fff;
+}
+
+.landing-content h1 {
+  width: 25ch;
+  margin-bottom: 1.5rem;
+  font-size: 2.75rem;
+  line-height: 3.5rem;
+  letter-spacing: 0.18rem;
+}
+
+.landing-content p {
+  width: 65ch;
+  margin-bottom: 2.2rem;
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  letter-spacing: 0.05rem;
+  color: #e6e6e6;
+}
+
+.btn {
+  background-color: #26bf29;
+  border: none;
+  color: white;
+  padding: 0.6rem 1.5rem;
+  border-radius: 0.2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 0.92rem;
 }
